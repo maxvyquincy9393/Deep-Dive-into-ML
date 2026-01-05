@@ -72,4 +72,4 @@ $$\frac{\partial J}{\partial \theta_j} = \frac{1}{m} \sum_{i=1}^{m} (h_\theta(x^
 
 ---
 
-**[← Back to Main Portfolio](../README.md)**
+**[← Back to Main Course](../README.md)**

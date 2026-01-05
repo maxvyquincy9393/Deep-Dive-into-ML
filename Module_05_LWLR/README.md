@@ -73,4 +73,4 @@ where W is diagonal matrix with $W_{ii} = w^{(i)}$
 
 ---
 
-**[← Back to Main Portfolio](../README.md)**
+**[← Back to Main Course](../README.md)**

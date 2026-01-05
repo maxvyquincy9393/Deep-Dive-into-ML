@@ -81,4 +81,4 @@ $$\theta := \theta + \alpha (y^{(i)} - \hat{y}^{(i)}) x^{(i)}$$
 
 ---
 
-**[← Back to Main Portfolio](../README.md)**
+**[← Back to Main Course](../README.md)**

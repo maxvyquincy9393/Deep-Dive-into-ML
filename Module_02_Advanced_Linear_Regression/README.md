@@ -63,4 +63,4 @@ $$\theta = (X^T X + \lambda I)^{-1} X^T y$$
 
 ---
 
-**[← Back to Main Portfolio](../README.md)**
+**[← Back to Main Course](../README.md)**

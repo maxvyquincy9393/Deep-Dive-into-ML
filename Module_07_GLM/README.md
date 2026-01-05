@@ -78,4 +78,4 @@ Linear Regression, Logistic Regression, and Softmax Regression are all GLMs:
 
 ---
 
-**[← Back to Main Portfolio](../README.md)**
+**[← Back to Main Course](../README.md)**

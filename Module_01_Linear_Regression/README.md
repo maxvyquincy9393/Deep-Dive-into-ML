@@ -67,4 +67,4 @@ $$\theta = (X^T X)^{-1} X^T y$$
 
 ---
 
-**[← Back to Main Portfolio](../README.md)**
+**[← Back to Main Course](../README.md)**

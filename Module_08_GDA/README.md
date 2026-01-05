@@ -311,7 +311,7 @@ While CS229 provides the theory, this notebook adds:
 
 **Kanisius Bagas**
 
-Part of the [Deep Dive Machine Learning](../) portfolio series.
+Part of the [Deep Dive Machine Learning](../) Course series.
 
 - GitHub: [@maxvyquincy9393](https://github.com/maxvyquincy9393)
 - LinkedIn: [kanisiusbagas1212](https://www.linkedin.com/in/kanisiusbagas1212)
@@ -319,6 +319,6 @@ Part of the [Deep Dive Machine Learning](../) portfolio series.
 
 ---
 
-**[← Back to Main Portfolio](../README.md)**
+**[← Back to Main Course](../README.md)**
 
 **If you found this helpful, please give the repo a ⭐!**
