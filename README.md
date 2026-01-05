@@ -1,224 +1,138 @@
 # Deep Dive Machine Learning: From Theory to Implementation
 
-A comprehensive machine learning curriculum based on **Stanford CS229** - implementing every algorithm from scratch with mathematical rigor and practical insights.
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
-![CS229](https://img.shields.io/badge/Based%20on-Stanford%20CS229-red.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Status](https://img.shields.io/badge/Status-In%20Progress-green.svg)
+![ML Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Deep%20Dive%20ML&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=From%20Theory%20to%20Implementation&descAlignY=55&descSize=20)
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+
+[![CS229](https://img.shields.io/badge/Based%20on-Stanford%20CS229-8C1515?style=flat-square)](http://cs229.stanford.edu/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Modules](https://img.shields.io/badge/Modules-8%20Complete-blue?style=flat-square)]()
+
+</div>
+
+---
 
 ## About This Project
 
-This repository contains my deep dive into machine learning, following the **Stanford CS229 Machine Learning** curriculum taught by Andrew Ng. Each module includes:
+A comprehensive machine learning curriculum implementing every algorithm **from scratch** with mathematical rigor. Built while studying **Stanford CS229** by Andrew Ng.
 
-- **Mathematical derivations** from first principles
-- **From-scratch implementations** in Python/NumPy
-- **Comparison with scikit-learn** implementations
-- **Real-world case studies** with industry-relevant datasets
-- **Visualizations** for intuitive understanding
+<table>
+<tr>
+<td width="50%">
 
-The goal isn't just to *use* machine learning libraries, but to truly *understand* what happens under the hood - from the calculus of gradient descent to the linear algebra of covariance matrices.
+### What's Inside
+- Mathematical derivations from first principles
+- Pure NumPy implementations (no black boxes)
+- Comparison with scikit-learn
+- Real-world case studies
+- Interactive visualizations
 
-## Curriculum Overview
+</td>
+<td width="50%">
 
-| Module | Topic | Key Concepts | Status |
-|--------|-------|--------------|--------|
-| 01 | [Linear Regression](Module_01_Linear_Regression/) | Gradient Descent, Normal Equation, MSE | ✅ |
-| 02 | [Advanced Linear Regression](Module_02_Advanced_Linear_Regression/) | Regularization, Feature Engineering, Cross-Validation | ✅ |
-| 03 | [Logistic Regression](Module_03_Logistic_Regression/) | Binary Classification, Sigmoid, Cross-Entropy | ✅ |
-| 04 | [Softmax Regression](Module_04_Softmax_Regression/) | Multiclass Classification, Softmax Function | ✅ |
-| 05 | [Locally Weighted LR](Module_05_LWLR/) | Non-parametric Methods, Bandwidth Selection | ✅ |
-| 06 | [Newton's Method & Perceptron](Module_06_Newton_Perceptron/) | Second-Order Optimization, Perceptron Algorithm | ✅ |
-| 07 | [Generalized Linear Models](Module_07_GLM/) | Exponential Family, Link Functions | ✅ |
-| 08 | [Gaussian Discriminant Analysis](Module_08_GDA/) | Generative Models, LDA/QDA, Bayes' Rule | ✅ |
+### Why From Scratch?
+> *"The goal is not just to use machine learning, but to understand it deeply enough to invent new algorithms."*
+> 
+> — Andrew Ng
 
-*More modules coming soon...*
+</td>
+</tr>
+</table>
 
-## Project Structure
+---
 
-```
-deep-dive-ml/
-├── README.md                           # This file
-│
-├── Module_01_Linear_Regression/
-│   ├── README.md                       # Module overview
-│   ├── Module_01_Linear_Regression.ipynb
-│   ├── Module_01b_SGD_NormalEquation.ipynb
-│   └── Real World Case Study/
-│       └── california_housing_prices.ipynb
-│
-├── Module_02_Advanced_Linear_Regression/
-│   ├── README.md
-│   ├── Module_02_Advanced_Linear_Regression_Scratch.ipynb
-│   ├── data/
-│   └── Real_Case_Study/
-│       └── Medical_Cost_Prediction.ipynb
-│
-├── Module_03_Logistic_Regression/
-│   ├── README.md
-│   ├── Evaluation_Metrics_Quick_Reference.md
-│   ├── Logistic_Regression_Cheat_Sheet.md
-│   ├── Module_03_Logistic_Regression_Scratch.ipynb
-│   ├── Module_03b_Advanced_Logistic.ipynb
-│   └── Real_Case_Study/
-│       └── Heart_Disease_Classification.ipynb
-│
-├── Module_04_Softmax_Regression/
-│   ├── README.md
-│   ├── Module_04_Softmax_Regression.ipynb
-│   └── Real_Case_Study/
-│       └── Wine_Quality_Classification.ipynb
-│
-├── Module_05_LWLR/
-│   ├── README.md
-│   ├── LWLR_Tutorial_Complete.ipynb
-│   ├── Module_05_Advanced_LWLR.ipynb
-│   └── Real_Case_Study/
-│       └── Temperature_Prediction.ipynb
-│
-├── Module_06_Newton_Perceptron/
-│   ├── README.md
-│   ├── Module_06_1_Perceptron.ipynb
-│   ├── Module_06_Logistic_Regression_Newton_Method.ipynb
-│   └── Real_Case_Study/
-│       └── Binary_Classification_Comparison.ipynb
-│
-├── Module_07_GLM/
-│   ├── README.md
-│   ├── Module_07_Generalized_Linear_Models.ipynb
-│   └── Real_Case_Study/
-│       └── Bike_Rental_Count_Prediction.ipynb
-│
-└── Module_08_GDA/
-    ├── README.md
-    ├── Module_08_GDA.ipynb
-    └── Real_Case_Study/
-```
+## Curriculum
 
-## Key Highlights
+| # | Module | Topics | Case Study |
+|:-:|--------|--------|------------|
+| 01 | **[Linear Regression](Module_01_Linear_Regression/)** | Gradient Descent, Normal Equation | California Housing |
+| 02 | **[Advanced Linear Regression](Module_02_Advanced_Linear_Regression/)** | Ridge, Lasso, Elastic Net | Medical Cost |
+| 03 | **[Logistic Regression](Module_03_Logistic_Regression/)** | Binary Classification, Cross-Entropy | Heart Disease |
+| 04 | **[Softmax Regression](Module_04_Softmax_Regression/)** | Multiclass, OvR vs OvO | Wine Quality |
+| 05 | **[LWLR](Module_05_LWLR/)** | Non-parametric, Bandwidth | Temperature |
+| 06 | **[Newton & Perceptron](Module_06_Newton_Perceptron/)** | 2nd Order Optimization | Binary Comparison |
+| 07 | **[GLM](Module_07_GLM/)** | Exponential Family, Poisson, Gamma | Bike Rental |
+| 08 | **[GDA](Module_08_GDA/)** | Generative Models, LDA/QDA | Iris Species |
 
-### Mathematical Rigor
-Every algorithm is derived from first principles:
-- **Gradient Descent**: Why does $\theta := \theta - \alpha \nabla_\theta J(\theta)$ minimize cost?
-- **Maximum Likelihood**: How do we derive the closed-form solutions for GDA?
-- **Kernel Trick**: What makes SVMs work in infinite-dimensional spaces?
+---
 
-### From-Scratch Implementations
-No black boxes - every core algorithm implemented in pure NumPy:
+## Sample Code
+
+Every algorithm implemented from scratch:
+
 ```python
-# Example: Logistic Regression gradient descent
-def logistic_regression_fit(X, y, lr=0.01, epochs=1000):
-    m, n = X.shape
-    theta = np.zeros(n)
+# Logistic Regression - Pure NumPy
+def fit(X, y, lr=0.01, epochs=1000):
+    theta = np.zeros(X.shape[1])
     
     for _ in range(epochs):
-        z = X @ theta
-        h = 1 / (1 + np.exp(-z))  # Sigmoid
-        gradient = (1/m) * X.T @ (h - y)
+        h = 1 / (1 + np.exp(-X @ theta))  # Sigmoid
+        gradient = X.T @ (h - y) / len(y)
         theta -= lr * gradient
     
     return theta
 ```
 
-### Real-World Case Studies
-Each module includes practical ap8)
-Expand your toolkit:
-5. **LWLR**: Non-parametric methods
-6. **Newton's Method**: Second-order optimization
-7. **GLM**: Unified framework for regression
-8. **GDA**: Generative classifica
-Start with the fundamentals:
-1. **Linear Regression**: The foundation - gradient descent, cost functions
-2. **Advanced Linear Regression**: Regularization, feature engineering
-3. **Logistic Regression**: Classification, sigmoid, cross-entropy
-4. **Softmax Regression**: Multiclass extension
+---
 
-### Intermediate Path (Modules 5-9)
-Expand your toolkit:
-5. **LWLR**: Non-parametric methods
-6. **Newton's Method**: Second-order optimization
-7. **GLM**: Unified framework for regression
-8. **GDA**: Generative classification
-9. **Naive Bayes**: Probabilistic text classification
-
-### Advanced Path (Modules 10-16)
-Deep theoretical foundations:
-10. **SVM**: Margins, kernels, optimization
-11. **Learning Theory**: Generalization bounds
-12. **Model Selection**: Cross-validation, Bayesian methods
-13. **K-Means**: Unsupervised clustering
-14. **GMM**: EM algorithm
-15. **Factor Analysis**: Latent variables
-16. **PCA**: Dimensionality reduction
-
-## Technologies Used
-
-- **Python 3.8+**: Core programming language
-- **NumPy**: Numerical computations, linear algebra
-- **Pandas**: Data manipulation and analysis
-- **Matplotlib/Seaborn**: Data visualization
-- **Scikit-learn**: Reference implementations and utilities
-- **SciPy**: Scientific computing, optimization
-- **Jupyter Notebook**: Interactive development
-
-## Installation
+## Quick Start
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/deep-dive-ml.git
-cd deep-dive-ml
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter
+git clone https://github.com/maxvyquincy9393/Deep-Dive-into-ML.git
+cd Deep-Dive-into-ML
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 jupyter notebook
 ```
 
-## References & Acknowledgments
+---
 
-### Primary Source
-- **Stanford CS229: Machine Learning** by Andrew Ng
-  - [Course Website](http://cs229.stanford.edu/)
-  - [Lecture Notes](http://cs229.stanford.edu/notes2022fall/)
-  - [Video Lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
+## Tech Stack
 
-### Additional Resources
-- **The Elements of Statistical Learning** by Hastie, Tibshirani, Friedman
-- **Pattern Recognition and Machine Learning** by Christopher Bishop
-- **Machine Learning: A Probabilistic Perspective** by Kevin Murphy
+<div align="center">
+
+| Category | Tools |
+|----------|-------|
+| **Language** | Python 3.8+ |
+| **Core** | NumPy, Pandas, SciPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **ML Reference** | scikit-learn |
+| **Environment** | Jupyter Notebook |
+
+</div>
+
+---
+
+## References
+
+- [Stanford CS229](http://cs229.stanford.edu/) - Machine Learning by Andrew Ng
+- [CS229 Lecture Notes](http://cs229.stanford.edu/notes2022fall/)
+- The Elements of Statistical Learning - Hastie, Tibshirani, Friedman
+
+---
 
 ## Author
 
+<div align="center">
+
 **Kanisius Bagas**
 
-- GitHub: [@maxvyquincy9393](https://github.com/maxvyquincy9393)
-- LinkedIn: [kanisiusbagas1212](https://www.linkedin.com/in/kanisiusbagas1212)
-- Email: maxvy1218@gmail.com
+[![GitHub](https://img.shields.io/badge/GitHub-maxvyquincy9393-181717?style=for-the-badge&logo=github)](https://github.com/maxvyquincy9393)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kanisiusbagas1212-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kanisiusbagas1212)
+[![Email](https://img.shields.io/badge/Email-maxvy1218%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maxvy1218@gmail.com)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+</div>
 
 ---
 
-## Contributing
+<div align="center">
 
-Contributions are welcome! If you find errors, have suggestions, or want to add case studies:
+**If this helped your ML journey, give it a ⭐**
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
 
----
-
-**If this project helped your ML journey, please give it a ⭐!**
-
-*"The goal is not just to use machine learning, but to understand it deeply enough to invent new algorithms."* - Andrew Ng
+</div>
