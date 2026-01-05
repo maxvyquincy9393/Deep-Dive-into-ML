@@ -1,5 +1,4 @@
-# Agent/IDE files
-.agent/
+# IDE files
 .vscode/
 .idea/
 
